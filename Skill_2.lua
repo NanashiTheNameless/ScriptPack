@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.PlayerGui.Statistics.Skill. Value = 2e9 

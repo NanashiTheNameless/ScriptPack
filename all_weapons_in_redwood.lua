@@ -1,0 +1,8 @@
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "M98B")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "Revolver")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "UMP-45")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "Parachute")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "ACR")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "M60")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "add more if u find")
+game.Workspace.resources.RemoteFunction:InvokeServer("giveItem", "Fake ID Card")

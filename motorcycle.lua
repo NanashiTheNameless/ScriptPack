@@ -1,0 +1,9 @@
+script/local brick = Instance.new("Part")
+brick.BrickColor = BrickColor.new("Brown")
+brick.Parent = mod 
+brick.Name = "Right Arm" 
+brick.Size = Vector3.new(3, 3, 3) 
+brick.CanCollide = true 
+brick.Locked = true 
+brick.TopSurface = "Smooth"
+brick.BottomSurface = "Smooth"

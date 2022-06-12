@@ -1,0 +1,1 @@
+game.Workspace.Stats.SetStat:FireServer("EXP", 99999, "math.random() is the best thing ever")

@@ -1,0 +1,6 @@
+while true do
+if Hexus.GetKey("E") then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+wait()
+end
+end

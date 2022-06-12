@@ -1,0 +1,20 @@
+plr = game.Players.LocalPlayer
+loc = plr.PERKS
+perks = true
+
+loc.POINTS.Value = perks
+loc.DAMAGE.Value = perks
+loc.HEALTH.Value= perks
+loc.GOLD.Value = perks
+loc.ENERGY.Value = perks
+loc.ARMOR.Value = perks
+loc.PEACEFUL.Value = perks
+loc.DOUBLEMINE.Value = perks
+loc.DOUBLEKILLS.Value = perks
+loc.FLAMEHEAD.Value = perks
+loc.DOUBLEWOOD.Value = perks
+loc.DOUBLEKINGVOTE.Value = perks
+loc.DOUBLEGATEDAMAGE.Value = perks
+loc.DOUBLEOUTPOST.Value = perks
+loc.FLAMESWORD.Value = perks
+loc.TEMP_KILLS.Value = perks

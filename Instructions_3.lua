@@ -1,0 +1,1 @@
+Magic change(Foo, Foo2, Foo3 are First Magic, Second Magic, Third Magic)

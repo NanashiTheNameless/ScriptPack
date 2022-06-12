@@ -1,0 +1,1 @@
+game.ReplicatedStorage.LeaderboardStat:FireServer("Miles",1562500,true)

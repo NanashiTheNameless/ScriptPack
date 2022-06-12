@@ -1,0 +1,124 @@
+local Me = game.Players.LocalPlayer 
+local char = Me.Character
+local Torso = char.Torso
+local Rarm = char["Right Arm"]
+local Larm = char["Left Arm"]
+local Rleg = char["Right Leg"]
+local Lleg = char["Left Leg"]
+pcall(function() Torso.Transparency = 1 end)
+pcall(function() Rarm.Transparency = 1 end)
+pcall(function() Larm.Transparency = 1 end)
+pcall(function() Lleg.Transparency = 1 end)
+pcall(function() Rleg.Transparency = 1 end)
+pcall(function() char[":P"]:remove() end)
+pcall(function() char["Parts"]:remove() end)
+local Model = Instance.new("Model",char)
+Model.Name = ":P" 
+local prts = Instance.new("Model", char) 
+prts.Name = "Parts" 
+local tors = Instance.new("Part") 
+tors.Parent = prts 
+tors.formFactor = "Custom" 
+tors.Size = Vector3.new(5, 5, 3) 
+tors.BrickColor = BrickColor.new("Really black") 
+tors.CanCollide = false 
+tors:BreakJoints() 
+local torsm = Instance.new("BlockMesh") 
+torsm.Parent = tors 
+torsm.Bevel = 0.1 
+local torsw = Instance.new("Weld") 
+torsw.Parent = tors 
+torsw.Part0 = tors 
+torsw.Part1 = Torso 
+torsw.C0 = CFrame.new(0, -3.5, 0) 
+local rrarm = Instance.new("Part") 
+rrarm.Parent = prts 
+rrarm.formFactor = "Custom" 
+rrarm.Size = Vector3.new(3, 5, 3) 
+rrarm.BrickColor = BrickColor.new("Really black") 
+rrarm.CanCollide = false 
+rrarm:BreakJoints() 
+local rrarmm = Instance.new("BlockMesh") 
+rrarmm.Parent = rrarm 
+rrarmm.Bevel = 0.1 
+local rrarmw = Instance.new("Weld") 
+rrarmw.Parent = rrarm 
+rrarmw.Part0 = rrarm 
+rrarmw.Part1 = Rarm 
+rrarmw.C0 = CFrame.new(-2, 0, 0) 
+local rrarmw = Instance.new("Weld") 
+rrarmw.Parent = Rarm 
+rrarmw.Part0 = Rarm 
+rrarmw.Part1 = tors 
+rrarmw.C0 = CFrame.new(-1.5, 0, 0) 
+local lrarm = Instance.new("Part") 
+lrarm.Parent = prts 
+lrarm.formFactor = "Custom" 
+lrarm.Size = Vector3.new(3, 5, 3) 
+lrarm.BrickColor = BrickColor.new("Really black") 
+lrarm.CanCollide = false 
+lrarm:BreakJoints() 
+local lrarmm = Instance.new("BlockMesh") 
+lrarmm.Parent = lrarm 
+lrarmm.Bevel = 0.1 
+local lrarmw = Instance.new("Weld") 
+lrarmw.Parent = lrarm 
+lrarmw.Part0 = lrarm 
+lrarmw.Part1 = Larm 
+lrarmw.C0 = CFrame.new(2, 0, 0) 
+local lrarmw = Instance.new("Weld") 
+lrarmw.Parent = Larm 
+lrarmw.Part0 = Larm 
+lrarmw.Part1 = tors 
+lrarmw.C0 = CFrame.new(1.5, 0, 0) 
+local rlarm = Instance.new("Part") 
+rlarm.Parent = prts 
+rlarm.formFactor = "Custom" 
+rlarm.Size = Vector3.new(3, 5, 3) 
+rlarm.BrickColor = BrickColor.new("Really black") 
+rlarm.CanCollide = false 
+rlarm:BreakJoints() 
+local rlarmm = Instance.new("BlockMesh") 
+rlarmm.Parent = rlarm 
+rlarmm.Bevel = 0.1 
+local rlarmw = Instance.new("Weld") 
+rlarmw.Parent = rlarm 
+rlarmw.Part0 = rlarm 
+rlarmw.Part1 = Rleg 
+rlarmw.C0 = CFrame.new(-2, 0, 0) 
+local rlarmw = Instance.new("Weld") 
+rlarmw.Parent = Rleg 
+rlarmw.Part0 = Rleg 
+rlarmw.Part1 = tors 
+rlarmw.C0 = CFrame.new(1, 4, 0) 
+local llarm = Instance.new("Part") 
+llarm.Parent = prts 
+llarm.formFactor = "Custom" 
+llarm.Size = Vector3.new(3, 5, 3) 
+llarm.BrickColor = BrickColor.new("Really black") 
+llarm.CanCollide = false 
+llarm:BreakJoints() 
+local llarmm = Instance.new("BlockMesh") 
+llarmm.Parent = llarm 
+llarmm.Bevel = 0.1 
+local llarmw = Instance.new("Weld") 
+llarmw.Parent = llarm 
+llarmw.Part0 = llarm 
+llarmw.Part1 = Lleg 
+llarmw.C0 = CFrame.new(2, 0, 0) 
+local llarmw = Instance.new("Weld") 
+llarmw.Parent = Lleg 
+llarmw.Part0 = Lleg 
+llarmw.Part1 = tors 
+llarmw.C0 = CFrame.new(-1, 4, 0) 
+local llarmw = Instance.new("Weld") 
+llarmw.Parent = char.Head 
+llarmw.Part0 = char.Head 
+llarmw.Part1 = tors 
+llarmw.C0 = CFrame.new(0, -3.75, 0)  
+char.Head.Mesh.Scale = Vector3.new(3, 3, 3) 
+for _, v in pairs(char:GetChildren()) do 
+if v.className == "Hat" then 
+v.Handle.Mesh.Scale = Vector3.new(3, 3, 3) 
+end 
+end 

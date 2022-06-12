@@ -1,0 +1,5 @@
+print("Checking Workspace.....")
+table.foreach(game.Workspace:children(),print)
+wait(3)
+print("Checking Lighting......")
+table.foreach(game.Lighting:GetChildren(),print)

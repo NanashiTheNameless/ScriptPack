@@ -1,0 +1,9 @@
+script/plyr = Instance.new("Model", game.Players) 
+plyr.Name = "Scriptax" 
+char = Instance.new("Model", plyr) 
+char.Name = "Scritpax" 
+local hum = Instance.new("Humanoid", char) 
+local head = Instance.new("Part", char) 
+head.Name = "Head"
+local torso = Instance.new("Part", char) 
+torso.Name = "Torso"  --lego   

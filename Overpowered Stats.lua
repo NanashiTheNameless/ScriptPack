@@ -1,0 +1,20 @@
+plr = game.Players.LocalPlayer
+plr.Data.Level.Value=1337420
+plr.Data.Attribute.Value=1337
+plr.Data.Ability.Value=1337
+plr.Data.zSoda.Value=1337420
+plr.Data.zSalad.Value=1337420
+plr.Data.zMeat.Value=1337420
+plr.Data.zOrange.Value=1337420
+plr.Data.zApple.Value=1337420
+plr.Data.zSenzu.Value=1337420
+plr.Data.Zeni.Value=133742000
+plr.Data.CP.Value=13374200
+plr.Data.AwakeningMax.Value=1337
+wait(1)
+plr.Data.xSTR.Value=1337420
+plr.Data.xAGI.Value=100
+plr.Data.Awakening.Value=1337
+plr.Data.xRAG.Value=1337220
+plr.Data.xENE.Value=1337420
+plr.Data.Slot6.Value=24

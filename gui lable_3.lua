@@ -1,0 +1,10 @@
+m = Instance.new("BillboardGui")
+m.Parent = Game.Workspace.acb227
+m.Adornee = ba
+m.Size = UDim2.new(0,300,0,500)
+bg = Instance.new("TextLabel")
+bg.Size = UDim.new(0,300,0,30)
+bg.Position = UDim2.new(0,0,0,-16)
+bg.Text = "Jail"
+bg.Parent = m
+bg.BackgroundColor = BrickColor.new(216)

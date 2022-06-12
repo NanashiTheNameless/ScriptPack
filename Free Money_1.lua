@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.Money.Value = 2000000000

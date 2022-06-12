@@ -1,0 +1,1 @@
+game:GetObjects("rbxassetid://169933956")[1].Parent=game.Players.LocalPlayer.Backpack

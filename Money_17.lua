@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.realstats.Cash.Value = 999999999

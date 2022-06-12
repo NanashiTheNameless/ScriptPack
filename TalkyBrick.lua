@@ -1,0 +1,30 @@
+player = game.Players.lordsheen 
+s = Instance.new("ScreenGui") 
+s.Parent = player.PlayerGui 
+x = player.Character 
+t = Instance.new("TextBox") 
+t.Parent = s 
+t.Size = UDim2.new(0,100,0,100) 
+t.Position = UDim2.new(0,500,0,100)
+nm = Instance.new("Model") 
+nm.Parent = player.Character 
+nm.Name = "" 
+tb = Instance.new("Part") 
+tb.Position = x.Head.Position 
+tb.CanCollide = false 
+tb.Size = Vector3.new(0.1,0.1,0.1) 
+tb.Transparency = 0.98 
+tb.Anchored = true 
+tb.Parent = nm 
+tb.Name = "Head" 
+sp = Instance.new("Sparkles") 
+sp.Parent = tb 
+nh = Instance.new("Humanoid") 
+nh.MaxHealth = "0" 
+nh.Health = "0" 
+nh.Parent = nm 
+while true do 
+wait(0) 
+nm.Name = t.Text 
+tb.Position = player.Character.Head.Position 
+end 

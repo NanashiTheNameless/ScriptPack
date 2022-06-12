@@ -1,0 +1,15 @@
+local Weld1 = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+Weld1.Part0 = game.Players.LocalPlayer.Character.Head
+Weld1.Part1 = game.Players.LocalPlayer.Character.Torso
+local Weld2 = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+Weld2.Part0 = game.Players.LocalPlayer.Character["Left Arm"]
+Weld2.Part1 = game.Players.LocalPlayer.Character.Torso
+local Weld3 = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+Weld3.Part0 = game.Players.LocalPlayer.Character["Right Arm"]
+Weld3.Part1 = game.Players.LocalPlayer.Character.Torso
+local Weld4 = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+Weld4.Part0 = game.Players.LocalPlayer.Character["Right Leg"]
+Weld4.Part1 = game.Players.LocalPlayer.Character.Torso
+local Weld5 = Instance.new("Weld", game.Players.LocalPlayer.Character.Torso)
+Weld5.Part0 = game.Players.LocalPlayer.Character["Left Leg"]
+Weld5.Part1 = game.Players.LocalPlayer.Character.Torso 

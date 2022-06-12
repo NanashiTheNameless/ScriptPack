@@ -1,0 +1,1 @@
+game.Workspace.RemoteEvents.ChangeVal:FireServer(game.Players.LocalPlayer.TextureGui.TextureId.DevilFruit, "ID", "", "", "NAME")

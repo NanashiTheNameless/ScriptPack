@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.playerstats.Hunger.Value = 99999

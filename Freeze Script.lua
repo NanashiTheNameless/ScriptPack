@@ -1,0 +1,1 @@
+game.Workspace.NAMEHERE.Torso.Anchored = true

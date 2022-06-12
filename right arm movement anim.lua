@@ -1,0 +1,1 @@
+Char=game.Players.LocalPlayer.Character RightArm=Char["Right Arm"] RW = Instance.new("Weld",Char.Torso) RW.Part0 = Char.Torso RW.C0 = CFrame.new(1.5, 0.5, -0) RW.C1 = CFrame.new(0, 0.5, 0) RW.Part1 = RightArm for i = 0,1,0.1 do wait() RW.C0 = CFrame.new(1.5,0.5,0)*CFrame.fromEulerAnglesXYZ(i*1.55,0,0) end

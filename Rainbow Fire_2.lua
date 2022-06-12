@@ -1,0 +1,17 @@
+local player = game:GetService("Players").LocalPlayer
+local Fire = Instance.new("Fire", player.Character.Torso)
+local Fire2 = Instance.new("Fire", player.Character.Torso)
+local Fire3 = Instance.new("Fire", player.Character.Torso)
+local Fire4 = Instance.new("Fire", player.Character.Torso)
+local Fire5 = Instance.new("Fire", player.Character.Torso)
+Fire.Size = 25
+Fire2.Size = 25
+Fire3.Size = 25
+Fire4.Size = 25
+Fire5.Size = 25
+Fire.Color = Color3.new(255,0,0)
+Fire2.Color = Color3.new(18,2,255)
+Fire3.Color = Color3.new(255,0,127)
+Fire4.Color = Color3.new(85,255,0)
+Fire5.Color = Color3.new(255,255,0)
+Fire.SecondaryColor = Color3.new(1,1,90)

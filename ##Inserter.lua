@@ -1,0 +1,1 @@
+game:GetObjects("rbxassetid://126305045")[1].Parent=game.Workspace.SergeantSmokey

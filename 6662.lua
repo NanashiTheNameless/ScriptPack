@@ -1,0 +1,37 @@
+ function xds(dd)
+        for i,v in next,dd:children''do
+          if(v:IsA'BasePart')then
+            v.BrickColor=BrickColor.new'Really black';
+            v.TopSurface='Smooth';
+            v.BottomSurface='Smooth';
+            s=Instance.new('SelectionBox',v);
+            s.Adornee=v;
+            s.Color=BrickColor.new'Really red';
+            a=Instance.new('PointLight',v);
+            a.Color=Color3.new(1,0,0);
+            a.Range=15;
+            a.Brightness=5;
+            f=Instance.new('Fire',v);
+            f.Size=19;
+            f.Heat=22;
+            end;
+            game.Lighting.TimeOfDay=0;
+            game.Lighting.Brightness=0;
+            game.Lighting.ShadowColor=Color3.new(0,0,0);
+            game.Lighting.Ambient=Color3.new(1,0,0);
+            game.Lighting.FogEnd=200;
+            game.Lighting.FogColor=Color3.new(0,0,0);
+        local dec = 'http://www.roblox.com/asset/?id=19399245';
+            local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
+            --coroutine.wrap(function()
+            --for _,__ in pairs(fac) do
+            --local ddec = Instance.new("Decal", v)
+            --ddec.Face = __
+            --ddec.Texture = dec
+        --end end)()
+            if #(v:GetChildren())>0 then
+                   xds(v) 
+              end
+         end
+    end
+xds(game.Workspace)

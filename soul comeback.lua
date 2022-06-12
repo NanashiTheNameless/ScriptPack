@@ -1,0 +1,1 @@
+script/while true do script.Parent = nil pcall(function() workspace.acb227.Hint:remove() end) wait() Instance.new("Hint", workspace.acb227).Text = "SOUL COME BACK, evry day i try to play, with out thinkin about you, soul come back :(" wait(1)  end 

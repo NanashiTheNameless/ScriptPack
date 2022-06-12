@@ -1,0 +1,1 @@
+game.ReplicatedStorage.Remotes.Events.CompletedJob:FireServer()

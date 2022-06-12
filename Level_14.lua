@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.PlayerGui.Statistics.Level. Value = 99999 

@@ -1,0 +1,1 @@
+game.Players.PLAYERNAME.Backpack.keyinput:FireServer("changestat", "bounty", 10000)

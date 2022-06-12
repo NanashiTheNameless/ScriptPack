@@ -1,0 +1,1 @@
+game.Workspace.GameFunctions.UpdateDinoDNADS:InvokeServer(50)

@@ -1,0 +1,10 @@
+v=game.Players.NAMEHERE
+v.Data.Level.Value = 50
+v.Data.Money.Value = 6750
+v.Data.Skill1.Value = 50
+v.Data.Skill2.Value = 50
+v.Data.Skill3.Value = 50
+v.Data.Skill4.Value = 50
+v.Data.Combat.Value = 50
+v.Data.Defense.Value = 50
+v.Data.Quirk.Value = 5

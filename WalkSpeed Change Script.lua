@@ -1,0 +1,1 @@
+game.Workspace.epicikr.Humanoid.WalkSpeed = 60

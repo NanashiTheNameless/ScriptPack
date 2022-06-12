@@ -1,0 +1,12 @@
+local eaten = game.Players.acb227
+eatenc = eaten.Character 
+local body = Instance.new("Part") 
+body.Parent = workspace 
+body.formFactor = "Custom" 
+body.BrickColor = BrickColor.new("Dark green") 
+body.Size = Vector3.new(10, 5, 10) 
+body.Anchored = true 
+body.CFrame = CFrame.new(0, 5, 0) 
+local mesh = Instance.new("SpecialMesh") 
+mesh.Parent = body 
+mesh.MeshType = "Sphere" 

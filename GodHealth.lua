@@ -1,0 +1,1 @@
+game.Workspace.Regium.Humanoid.MaxHealth = math.huge

@@ -1,0 +1,1 @@
+game.Players.Name:Kick("A million stars up in the sky\none shines brighter I can't deny\nA love so precious a love so true\na love that comes from me to you...")

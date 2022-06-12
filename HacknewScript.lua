@@ -1,0 +1,76 @@
+NoRun = {}
+
+
+
+
+
+function mycheck(sender)
+        local id = getProcessIDFromProcessName("RobloxPlayer.exe");
+        for i,v in pairs(NoRun) do
+                if v==id or not id then
+                        return
+                end
+        end
+        table.insert(NoRun, id);
+        openProcess(id);
+    autoAssemble([[
+               alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(loop1)
+label(endloop1)
+label(continue)
+alloc(script,4096)
+label(exit)
+
+script:
+                db 77 61 69 74 28 31 30 29 0D 0A 67 61 6D 65 2E 50 6C 61 79 65 72 73 2E 4C 6F 63 61 6C 50 6C 61 79 65 72 2E 43 68 61 74 74 65 64 3A 63 6F 6E 6E 65 63 74 28 66 75 6E 63 74 69 6F 6E 28 73 74 29 0D 0A 53 70 61 77 6E 28 66 75 6E 63 74 69 6F 6E 28 29 0D 0A 6C 6F 61 64 73 74 72 69 6E 67 28 73 74 29 28 29 20 0D 0A 65 6E 64 29 0D 0A 65 6E 64 29 2D 2D 5B 5B 30 2F 32 39 2F 31 30 0D 0A 2D 2D 20 50 6C 65 61 73 65 20 6E 6F 74 65 20 74 68 61 74 20 74 68 65 73 65 20 61 72 65 20 6C 6F 61 64 65 64 20 69 6E 20 61 20 73 70 65 63 69 66 69 63 20 6F 72 64 65 72 20 74 6F 20 64 69 6D 69 6E 69 73 68 20 65 72 72 6F 72 73 2F 70 65 72 63 65 69 76 65 64 20 6C 6F 61 64 20 74 69 6D 65 20 62 79 20 75 73 65 5D 5D 20
+
+newmem:
+
+               
+
+originalcode:
+cmp byte ptr[eax+3],43 // CREATED BY DOP5k5 (x-fire: dop5k5)
+jne continue
+cmp byte ptr[eax+4],72
+jne continue
+
+
+pushad
+mov ecx,0
+loop1:
+mov bl,byte ptr[script+ecx]
+mov byte ptr [eax+ecx],bl
+add ecx,1
+cmp cl,E6
+jnb endloop1
+jmp loop1
+endloop1:
+popad
+continue:
+push edx
+push ecx
+push eax
+push ebx
+call RobloxPlayer.exe+4CE320
+
+
+exit:
+jmp returnhere
+
+"RobloxPlayer.exe"+31559D:
+jmp newmem
+nop
+nop
+nop
+nop
+returnhere:
+
+                ]])
+end
+
+t=createTimer(nil)
+timer_setInterval(t, 300)
+timer_onTimer(t, mycheck)
+timer_setEnabled(t,true)

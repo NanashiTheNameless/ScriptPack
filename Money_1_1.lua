@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.PlayerGui.Main.Shop.BlueprintsShop.Taylorian.Cost.Value = -2000000000

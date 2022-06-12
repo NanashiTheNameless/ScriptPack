@@ -1,0 +1,90 @@
+while true do
+wait()
+s = Instance.new("Sky")
+s.Parent = game.Lighting
+s.Name = "NyanCat"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767914"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767914"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767914"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767914"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767914"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767914"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767923"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767923"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767923"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767923"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767923"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767923"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767933"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767933"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767933"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767933"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767933"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767933"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767945"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767945"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767945"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767945"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767945"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767945"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767959"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767959"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767959"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767959"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767959"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767959"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767974"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767974"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767974"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767974"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767974"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767974"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767980"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767980"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767980"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767980"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767980"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767980"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50767996"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50767996"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50767996"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50767996"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50767996"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50767996"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50768017"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50768017"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50768017"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50768017"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50768017"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50768017"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50768029"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50768029"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50768029"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50768029"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50768029"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50768029"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50768034"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50768034"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50768034"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50768034"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50768034"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50768034"
+wait(0.1)
+s.SkyboxBk = "http://www.roblox.com/asset/?id=50768048"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=50768048"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=50768048"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=50768048"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=50768048"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=50768048"
+end
+

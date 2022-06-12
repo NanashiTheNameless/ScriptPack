@@ -1,0 +1,1 @@
+game.Players["Player name here"].Character.Name = "name here"

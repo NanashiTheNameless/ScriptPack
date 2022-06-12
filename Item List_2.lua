@@ -1,0 +1,17 @@
+UMP-45
+
+[ILLEGAL] RPG-7
+
+[ILLEGAL] C4
+
+Boombox
+
+Rotorcycle
+
+G36C
+
+USP
+
+FP6
+
+L85A2

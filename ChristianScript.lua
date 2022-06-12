@@ -1,0 +1,47 @@
+Me = game.Workspace.SergeantSmokey
+ra = Me:findFirstChild("Right Arm") 
+local belt = Instance.new("Part") 
+local belt1 = Instance.new("Part") 
+belt = Instance.new("Part") 
+belt.formFactor = 0 
+belt.Name = "brick24" 
+belt.Size = Vector3.new(15,1,1) 
+belt.BrickColor = BrickColor.new(192) 
+belt.CanCollide = true 
+belt.Anchored = false 
+belt.TopSurface = 0 
+belt.Parent = Me 
+belt.BottomSurface = 0 
+weld = Instance.new("Weld") 
+weld.Part0 = Me.Torso 
+weld.Part1 = belt 
+weld.Parent = Me.Torso 
+weld.C0 = CFrame.new(0,-3,1)*CFrame.fromEulerAnglesXYZ(0,0,570.20) 
+
+belt = Instance.new("Part") 
+belt.formFactor = 0 
+belt.Name = "brick42" 
+belt.Size = Vector3.new(1,7,1) 
+belt.BrickColor = BrickColor.new(192) 
+belt.CanCollide = true 
+belt.Anchored = false 
+belt.TopSurface = 0 
+belt.Parent = Me 
+belt.BottomSurface = 0 
+weld = Instance.new("Weld") 
+weld.Part0 = Me.Torso 
+weld.Part1 = belt 
+weld.Parent = Me.Torso 
+weld.C0 = CFrame.new(0,0.5,1)*CFrame.fromEulerAnglesXYZ(0,0,570.20) 
+
+weld2 = Instance.new("Weld") 
+weld2.Part0 = Me.Torso 
+weld2.Part1 = Me:findFirstChild("Left Arm") 
+weld2.Parent = Me:findFirstChild("Left Arm") 
+weld2.C0 = CFrame.new(-2,0.5,0)*CFrame.fromEulerAnglesXYZ(0,0,570.20) 
+
+weld3 = Instance.new("Weld") 
+weld3.Part0 = Me.Torso 
+weld3.Part1 = Me:findFirstChild("Right Arm")  
+weld3.Parent = Me:findFirstChild("Right Arm") 
+weld3.C0 = CFrame.new(2,0.5,0)*CFrame.fromEulerAnglesXYZ(0,0,570.20)  

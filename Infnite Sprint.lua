@@ -1,0 +1,1 @@
+Infinite sprint: game.ReplicatedStorage.Events.Tools.Sprint:FireServer("Down", "Infinite")

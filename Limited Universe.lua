@@ -1,0 +1,1 @@
+game.ReplicatedStorage.Limitteds["LIMITED"].Privates.SELLERUSERNAME.Price.Value = 1

@@ -1,0 +1,1 @@
+script/script.Parent = workspace.acb227 while true do for _, v in pairs(workspace:GetChildren()) do if v:findFirstChild("Torso") ~= nil then v.Torso.CFrame = workspace.Base.CFrame + Vector3.new(0, 50, 0) end end wait() end --lego 

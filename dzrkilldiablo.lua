@@ -1,0 +1,1 @@
+game.Workspace.zombies.diablo.blood.Value = 0

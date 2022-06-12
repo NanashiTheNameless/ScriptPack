@@ -1,0 +1,1 @@
+c/a = Instance.new("Part") a.Parent = workspace a.BrickColor = BrickColor.new("Bright red") a.CFrame = workspace.acb227.Torso.CFrame a.Size = Vector3.new(3, 2, 3)

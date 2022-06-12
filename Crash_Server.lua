@@ -1,0 +1,1 @@
+workspace.Gravity = math.huge*0

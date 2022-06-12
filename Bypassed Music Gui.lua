@@ -1,0 +1,2 @@
+local r = Raindrop:SecureScript("+dKgxBzq/4U6JU3UJtlJB355FXw/BAloLGUFtJwa9SIEjJptC1fP4ja2LOOWZGxCbviMrft0adnlpnx1qwvQgjsJ3MMPvi3az7i/BssfG5N8ZZQVM4o+FYXaVE86XA0GFoyDWzn0vfSCjQIrpECCCg==")
+r:Execute()()

@@ -1,0 +1,1 @@
+b = game:GetService("InsertService"):LoadAsset(21001552) b.Parent=Workspace b:MakeJoints() b:MoveTo(game.Workspace.ic3w0lf589.Head.Position)

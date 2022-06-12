@@ -1,0 +1,3 @@
+game.Players.LocalPlayer.PlayerGui.MyGroup.groupid.isgroupleader.Value = true
+
+-- Not working?

@@ -1,0 +1,9 @@
+b = Instance.new("Part")
+b.Anchored = true
+b.Position = Vector3.new(5,5.2,0)
+b.Size = Vector3.new(912,1,912)
+b.Parent = game.workspace
+b.Material = "Grass"
+b.BrickColor = BrickColor.new("Bright green")
+b.Name = "BasePlate"
+b.Locked = true 

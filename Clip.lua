@@ -1,0 +1,1 @@
+local src = workspace.Script.Source i = 0 while src:len() > 0 do i = i + 1 local v = Instance.new("StringValue", workspace) v.Value = src:sub(0, 200000) src = src:sub(200000) v.Name = tostring(i) print(i) wait() end

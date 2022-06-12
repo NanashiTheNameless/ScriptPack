@@ -1,0 +1,12 @@
+mo = Instance.new("Model") 
+mo.Parent = workspace.acbalt 
+mo.Name = "Remote Control Ships" 
+pa = Instance.new("Part") 
+pa.CFrame = CFrame.new(0, 45, 0) 
+pa.BrickColor = BrickColor.new("Really black") 
+pa.Parent = mo 
+pa.Size = Vector3.new(25, 15, 25)
+mesh = Instance.new("SpecialMesh") 
+mesh.MeshType = "Sphere" 
+mesh.Parent = pa  
+mesh.Scale = Vector3.new(1, 1, 1)

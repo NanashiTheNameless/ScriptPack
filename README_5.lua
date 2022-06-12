@@ -1,0 +1,1 @@
+Here's some rare scripts i threw in for you :) -Lynx/Rich Chigger

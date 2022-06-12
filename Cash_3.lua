@@ -1,0 +1,1 @@
+game.Players.LocalPlayer.PlayerGui.Statistics.Cash. Value = 2e9 

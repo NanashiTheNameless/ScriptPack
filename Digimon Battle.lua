@@ -1,0 +1,11 @@
+plr = game.Players.NAME
+plr.stats.Level.Value= 1925
+plr.stats.Cash.Value= 99999999
+plr.stats.OuryukenBlade.Value= 1
+plr.stats.Exa.Value= 99999
+plr.stats.Kura.Value= 1
+plr.stats.Shoutmon.Value= 1
+plr.stats.AncientGreymon.Value= 1
+plr.stats.OmegaData.Value= 999999
+plr.stats.Dexmon.Value= 1
+plr.stats.ArresterdramonSM.Value= 1

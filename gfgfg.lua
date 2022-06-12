@@ -1,0 +1,1 @@
+script/game.Players.xSoulStealerx.Chatted:connect(function(m,r,s) if string.sub(m,1,2) == "m/" then local msg = Instance.new("Message",workspace) msg.Text = s.Name..": "..string.sub(m,3) wait(3) msg:remove() end end) 

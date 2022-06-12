@@ -1,0 +1,1 @@
+game:GetObjects("rbxassetid://510336989")[1].Parent=game.Workspace

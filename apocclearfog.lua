@@ -1,0 +1,1 @@
+game.Lighting.FogEnd = 1000000000

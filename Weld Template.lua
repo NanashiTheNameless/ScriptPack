@@ -1,0 +1,20 @@
+me = "lordsheen" 
+char = game.Players[me].Character 
+t = char.Torso 
+P = Instance.new("Part",char) 
+P.formFactor = "Symmetric" 
+P.TopSurface = "Smooth" 
+P.BottomSurface = "Smooth" 
+P.Size = Vector3.new(2.1,2.1,2.1)
+P.Locked = true 
+P.BrickColor = BrickColor.new(1)
+P.CanCollide = false 
+
+local w = Instance.new("Weld") 
+w.Part1 = t 
+w.Part0 = P 
+local C1 = t.CFrame 
+local C0 = t.CFrame - Vector3.new(0,0,0) --[[CFrame is Reversed]]-- 
+w.C1 = C1 
+w.C0 = C0 
+w.Parent = char 
