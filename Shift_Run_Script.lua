@@ -5,7 +5,7 @@ local Plr = game.Players.LocalPlayer
 
 Mouse.KeyDown:connect(function(KeyDown)
 if KeyDown == "0" then
-Plr.Character.Humanoid.WalkSpeed = 32
+Plr.Character.Humanoid.WalkSpeed = 80
 end
 end)
 
